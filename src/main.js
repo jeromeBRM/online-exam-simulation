@@ -61,6 +61,7 @@ class ChoiceElement {
   constructor(parentQuestion, choice) {
 	this.parentQuestion = parentQuestion;
     this.choice = choice;
+	this.uniqueId = this.parentQuestion.title + "/" + this.choice.title;
   }
 
   mount() {
@@ -71,6 +72,7 @@ class ChoiceElement {
 	// create the radio button of the choice in the DOM
 	const choiceInput = document.createElement('input');
 	choiceInput.type = 'radio';
+	choiceInput.id = this.uniqueId;
 	choiceInput.value = this.choice.correct;
 	choiceInput.name = this.parentQuestion.title;
 	choiceContainer.appendChild(choiceInput);
@@ -78,6 +80,7 @@ class ChoiceElement {
 	// create the label of the choice in the DOM
 	const choiceLabel = document.createElement('label');
 	choiceLabel.innerText = this.choice.title;
+	choiceLabel.htmlFor = this.uniqueId;
 	choiceContainer.appendChild(choiceLabel);
 
 	return choiceContainer;
