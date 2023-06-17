@@ -3883,5 +3883,1175 @@ const questions = [
         "correct" : false
       }
     ]
+  },
+  
+  {
+    "title" : "Que signifie le « D » dans le sigle DICP ?",
+    "choices" : [
+      {
+        "title" : "Disponibilité",
+        "correct" : true
+      },
+      {
+        "title" : "Délai",
+        "correct" : false
+      },
+	  {
+        "title" : "Dommages",
+        "correct" : false
+      },
+	  {
+        "title" : "Données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L’habilitation consiste à vérifier qu’une entité a ?",
+    "choices" : [
+      {
+        "title" : "Les droits",
+        "correct" : true
+      },
+      {
+        "title" : "Les devoirs",
+        "correct" : false
+      },
+	  {
+        "title" : "Eté journalisée",
+        "correct" : false
+      },
+	  {
+        "title" : "Eté contrôlée",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, les principaux risques pour un poste de travail ?",
+    "choices" : [
+      {
+        "title" : "Utilisation du poste pour faire une attaque de type RROS",
+        "correct" : true
+      },
+      {
+        "title" : "Vol du poste de travail",
+        "correct" : false
+      },
+	  {
+        "title" : "Utilisation du poste pour faire du mass-mailing",
+        "correct" : false
+      },
+	  {
+        "title" : "Utilisation du poste pour accéder au SI de l'entreprise",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Authentification, quel est l’intrus ?",
+    "choices" : [
+      {
+        "title" : "Ce que je pense",
+        "correct" : true
+      },
+      {
+        "title" : "Ce que je possède",
+        "correct" : false
+      },
+	  {
+        "title" : "Ce que je sais",
+        "correct" : false
+      },
+	  {
+        "title" : "Ce que je suis",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quelle est la différence entre le 802.11n et 802.11ac ?",
+    "choices" : [
+      {
+        "title" : "La manière d'envoyer les données aux utilisateurs",
+        "correct" : true
+      },
+      {
+        "title" : "La vitesse de propagation des ondes",
+        "correct" : false
+      },
+	  {
+        "title" : "La vitesse de réponse des utilisateurs",
+        "correct" : false
+      },
+	  {
+        "title" : "La manière de chiffrer les données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La profondeur de l'audit dépend ?",
+    "choices" : [
+      {
+        "title" : "De la taille de l'entreprise",
+        "correct" : true
+      },
+      {
+        "title" : "Du temps des auditeurs",
+        "correct" : false
+      },
+	  {
+        "title" : "Des compétences des auditeurs",
+        "correct" : false
+      },
+	  {
+        "title" : "De la localisation de l'entreprise",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Une connexion sauvage est une connexion qui ?",
+    "choices" : [
+      {
+        "title" : "N'a pas été autorisée par l'entreprise",
+        "correct" : true
+      },
+      {
+        "title" : "Qui n'est pas sécurisée",
+        "correct" : false
+      },
+	  {
+        "title" : "Qui n'est pas chiffrée",
+        "correct" : false
+      },
+	  {
+        "title" : "N'a pas appris à lire et à écrire",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L’audit intrusif permet notamment de rechercher ?",
+    "choices" : [
+      {
+        "title" : "Les vulnérabilités",
+        "correct" : true
+      },
+      {
+        "title" : "Les erreurs de codage",
+        "correct" : false
+      },
+	  {
+        "title" : "Les problèmes d'installation",
+        "correct" : false
+      },
+	  {
+        "title" : "Les virus",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Que signifie le « C » dans le sigle DICP ?",
+    "choices" : [
+      {
+        "title" : "Confidentialité",
+        "correct" : true
+      },
+      {
+        "title" : "Connexion",
+        "correct" : false
+      },
+	  {
+        "title" : "Configuration",
+        "correct" : false
+      },
+	  {
+        "title" : "Chiffrement",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le network forensique permet de ?",
+    "choices" : [
+      {
+        "title" : "Déterminer l'origine des incidents",
+        "correct" : true
+      },
+      {
+        "title" : "Déterminer l'origine des menaces",
+        "correct" : false
+      },
+	  {
+        "title" : "Déterminer l'origine des risques",
+        "correct" : false
+      },
+	  {
+        "title" : "Déterminer l'origine des applications",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Au niveau de l'analyse forensique, la première étape est de faire ?",
+    "choices" : [
+      {
+        "title" : "Un constat de l'incident",
+        "correct" : true
+      },
+      {
+        "title" : "Une analyse des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Un retour d'expérience",
+        "correct" : false
+      },
+	  {
+        "title" : "Une extraction des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un HIPS permet de ?",
+    "choices" : [
+      {
+        "title" : "Bloquer les attaques connues",
+        "correct" : true
+      },
+      {
+        "title" : "Bloquer les applications interdites",
+        "correct" : false
+      },
+	  {
+        "title" : "Bloquer les flux inconnus",
+        "correct" : false
+      },
+	  {
+        "title" : "Bloquer les attaques inconnues",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, un firewall (pare-feu) protège contre ?",
+    "choices" : [
+      {
+        "title" : "L'écoute du réseau",
+        "correct" : true
+      },
+      {
+        "title" : "Connexions sortantes",
+        "correct" : false
+      },
+	  {
+        "title" : "Prolifération de malwares",
+        "correct" : false
+      },
+	  {
+        "title" : "Connexions entrantes",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'avantage d'un VPN SSL en entreprise ?",
+    "choices" : [
+      {
+        "title" : "Pas besoin de déployer un logiciel spécifique sur les postes de travail",
+        "correct" : true
+      },
+      {
+        "title" : "Pas besoin de sauvegarder les postes de travail",
+        "correct" : false
+      },
+	  {
+        "title" : "Pas besoin de déployer un certificat sur les postes de travail",
+        "correct" : false
+      },
+	  {
+        "title" : "Pas besoin de mettre un antivirus sur les postes de travail",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, au niveau du stockage des données lequel n'existe pas ?",
+    "choices" : [
+      {
+        "title" : "Réseau de serveurs",
+        "correct" : true
+      },
+      {
+        "title" : "Serveur de fichiers",
+        "correct" : false
+      },
+	  {
+        "title" : "NAS",
+        "correct" : false
+      },
+	  {
+        "title" : "SAN",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "10.11.12.13 est une adresse ?",
+    "choices" : [
+      {
+        "title" : "Privée",
+        "correct" : true
+      },
+      {
+        "title" : "Publique",
+        "correct" : false
+      },
+	  {
+        "title" : "Publique ou privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Publique et privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un Audit doit ?",
+    "choices" : [
+      {
+        "title" : "Avoir des objectifs et un périmètre",
+        "correct" : true
+      },
+      {
+        "title" : "Ne pas être trop intrusif",
+        "correct" : false
+      },
+	  {
+        "title" : "Durer jusqu'à la découverte d'une faille",
+        "correct" : false
+      },
+	  {
+        "title" : "Avoir un retour sur investissement",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La Sécurité des Systèmes d'Information est une ?",
+    "choices" : [
+      {
+        "title" : "Gestion des risques",
+        "correct" : true
+      },
+      {
+        "title" : "Gestion des menaces",
+        "correct" : false
+      },
+	  {
+        "title" : "Gestion des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Les 3",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un firewall permet de ?",
+    "choices" : [
+      {
+        "title" : "Filtrer",
+        "correct" : true
+      },
+      {
+        "title" : "Chiffrer",
+        "correct" : false
+      },
+	  {
+        "title" : "Sauvegarder",
+        "correct" : false
+      },
+	  {
+        "title" : "Authentifier",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pour toute donnée entrante via un formulaire, nous devons confirmer ?",
+    "choices" : [
+      {
+        "title" : "Sa validité",
+        "correct" : true
+      },
+      {
+        "title" : "Son chiffrement",
+        "correct" : false
+      },
+	  {
+        "title" : "Sa sauvegarde",
+        "correct" : false
+      },
+	  {
+        "title" : "Son invalidité",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L'analyse dead-forensics consiste à ?",
+    "choices" : [
+      {
+        "title" : "Analyser des supports de masse",
+        "correct" : true
+      },
+      {
+        "title" : "Analyser la RAM",
+        "correct" : false
+      },
+	  {
+        "title" : "Analyser le réseau",
+        "correct" : false
+      },
+	  {
+        "title" : "Analyser le clavier",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, le protocole FTP est sensible ?",
+    "choices" : [
+      {
+        "title" : "Au DDOS",
+        "correct" : true
+      },
+      {
+        "title" : "Au rejeu",
+        "correct" : false
+      },
+	  {
+        "title" : "A l'écoute",
+        "correct" : false
+      },
+	  {
+        "title" : "Au MITM",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, quelles sont les limites de la cryptographie ?",
+    "choices" : [
+      {
+        "title" : "Preuve",
+        "correct" : true
+      },
+      {
+        "title" : "Erreurs d'implémentation",
+        "correct" : false
+      },
+	  {
+        "title" : "Générateurs de nombres aléatoires",
+        "correct" : false
+      },
+	  {
+        "title" : "Puissance de calcul",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pourquoi SSL n'est pas un protocole vraiment sécurisé ?",
+    "choices" : [
+      {
+        "title" : "Il n'assure que le chiffrement",
+        "correct" : true
+      },
+      {
+        "title" : "Il ne protège pas contre les malwares",
+        "correct" : false
+      },
+	  {
+        "title" : "Il n'assure pas la disponibilité",
+        "correct" : false
+      },
+	  {
+        "title" : "Le cadenas est trop petit",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un audit en aveugle est effectué ?",
+    "choices" : [
+      {
+        "title" : "Sans aucune connaissance du SI",
+        "correct" : true
+      },
+      {
+        "title" : "Avec les équipes techniques de l'entreprise",
+        "correct" : false
+      },
+	  {
+        "title" : "Depuis l'Internet",
+        "correct" : false
+      },
+	  {
+        "title" : "Avec un aveugle pour éviter la fuite d'informations",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Sécurité du poste de travail, quel est l’intrus ?",
+    "choices" : [
+      {
+        "title" : "Suite bureautique",
+        "correct" : true
+      },
+      {
+        "title" : "Mises à jour",
+        "correct" : false
+      },
+	  {
+        "title" : "Pare-feu personnel",
+        "correct" : false
+      },
+	  {
+        "title" : "Antivirus",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "En sécurité, le maillon faible est souvent l'être humain. Comment se prémunir contre cela ?",
+    "choices" : [
+      {
+        "title" : "Sensibiliser le maillon faible",
+        "correct" : true
+      },
+      {
+        "title" : "Remplacer le maillon faible",
+        "correct" : false
+      },
+	  {
+        "title" : "Eliminer le maillon faible",
+        "correct" : false
+      },
+	  {
+        "title" : "Ne rien faire",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La confiance sur Internet est basée sur l'utilisations de ?",
+    "choices" : [
+      {
+        "title" : "Certificats",
+        "correct" : true
+      },
+      {
+        "title" : "VPN",
+        "correct" : false
+      },
+	  {
+        "title" : "Cloud computing",
+        "correct" : false
+      },
+	  {
+        "title" : "Moyens d'authentification forte",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La différence principale entre les technologies WPAN, WLAN, WMAN, WWAN est ?",
+    "choices" : [
+      {
+        "title" : "La portée",
+        "correct" : true
+      },
+      {
+        "title" : "La sécurité",
+        "correct" : false
+      },
+	  {
+        "title" : "La proportionnalité",
+        "correct" : false
+      },
+	  {
+        "title" : "Aucune des 3 réponses",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le NAC ou NAP permet de contrôler si un poste de travail respecte la politique de ?",
+    "choices" : [
+      {
+        "title" : "Sécurité",
+        "correct" : true
+      },
+      {
+        "title" : "DLP",
+        "correct" : false
+      },
+	  {
+        "title" : "Sauvegarde",
+        "correct" : false
+      },
+	  {
+        "title" : "Mise à jour",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Au niveau des smatphones, la plupart des données sont stockées dans ?",
+    "choices" : [
+      {
+        "title" : "Des bases de doonnées SQLites",
+        "correct" : true
+      },
+      {
+        "title" : "Des fichiers textes",
+        "correct" : false
+      },
+	  {
+        "title" : "Des photos",
+        "correct" : false
+      },
+	  {
+        "title" : "Des fichiers HTML",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La collecte de données sensibles est ?",
+    "choices" : [
+      {
+        "title" : "Interdite",
+        "correct" : true
+      },
+      {
+        "title" : "Coûteuse",
+        "correct" : false
+      },
+	  {
+        "title" : "Obligatoire",
+        "correct" : false
+      },
+	  {
+        "title" : "Autorisée",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L’objectif d’HADOPI est de sanctionner le ?",
+    "choices" : [
+      {
+        "title" : "Téléchargement illégal",
+        "correct" : true
+      },
+      {
+        "title" : "Blanchiment d'argent",
+        "correct" : false
+      },
+	  {
+        "title" : "Piratage",
+        "correct" : false
+      },
+	  {
+        "title" : "Vol de données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "En cas d'utilisation de moyens cryptographiques, les clés doivent être déposées auprès de ?",
+    "choices" : [
+      {
+        "title" : "L'ANSSI",
+        "correct" : true
+      },
+      {
+        "title" : "La CNIL",
+        "correct" : false
+      },
+	  {
+        "title" : "La DGSE",
+        "correct" : false
+      },
+	  {
+        "title" : "La DGSI",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Dans un réseau Wi-fi, Quelle est la menace pour laquelle, il n'existe pas solution ?",
+    "choices" : [
+      {
+        "title" : "Déni de service",
+        "correct" : true
+      },
+      {
+        "title" : "Virus",
+        "correct" : false
+      },
+	  {
+        "title" : "Perte d’intégrité",
+        "correct" : false
+      },
+	  {
+        "title" : "Perte du confinement",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un bon mot de passe doit avoir ?",
+    "choices" : [
+      {
+        "title" : "Au moins 8 caractères",
+        "correct" : true
+      },
+      {
+        "title" : "Aucun chiffre",
+        "correct" : false
+      },
+	  {
+        "title" : "Au plus 8 caractères",
+        "correct" : false
+      },
+	  {
+        "title" : "Que des chiffres",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La norme 27005 correspond à ?",
+    "choices" : [
+      {
+        "title" : "Analyse des risques",
+        "correct" : true
+      },
+      {
+        "title" : "Exigences pour le SMSI",
+        "correct" : false
+      },
+	  {
+        "title" : "Métrique et mesure",
+        "correct" : false
+      },
+	  {
+        "title" : "Guide de bonnes pratiques",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, la cryptographie est utilisée dans les domaines suivants ?",
+    "choices" : [
+      {
+        "title" : "Réseaux sociaux",
+        "correct" : true
+      },
+      {
+        "title" : "Messagerie électronique",
+        "correct" : false
+      },
+	  {
+        "title" : "E-commerce",
+        "correct" : false
+      },
+	  {
+        "title" : "Signature électronique",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pourquoi la sécurité n'est pas qu'un problème technique ?",
+    "choices" : [
+      {
+        "title" : "Elle doit aussi s'appuyer sur des procédures",
+        "correct" : true
+      },
+      {
+        "title" : "Elle doit aussi s'appuyer sur le réseau",
+        "correct" : false
+      },
+	  {
+        "title" : "Elle doit aussi s'appuyer sur le mur",
+        "correct" : false
+      },
+	  {
+        "title" : "Elle doit aussi s'appuyer sur le bon vouloir des personnes",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un ver est un programme qui peut ?",
+    "choices" : [
+      {
+        "title" : "Se copier d'un ordinateur à un autre ordinateur",
+        "correct" : true
+      },
+      {
+        "title" : "Infecter un autre programme",
+        "correct" : false
+      },
+	  {
+        "title" : "Détruire des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Créer une porte dérobée",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L'Impact est la conséquence de la réalisation ?",
+    "choices" : [
+      {
+        "title" : "D'une menace",
+        "correct" : true
+      },
+      {
+        "title" : "D'un risque",
+        "correct" : false
+      },
+	  {
+        "title" : "D'une vulnérabilité",
+        "correct" : false
+      },
+	  {
+        "title" : "D'une ressource",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "193.50.230.230 est une adresse ?",
+    "choices" : [
+      {
+        "title" : "Publique",
+        "correct" : true
+      },
+      {
+        "title" : "Privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Publique ou privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Publique et privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, le protocole HTTP est sensible ?",
+    "choices" : [
+      {
+        "title" : "Au DDOS",
+        "correct" : true
+      },
+      {
+        "title" : "A l'écoute",
+        "correct" : false
+      },
+	  {
+        "title" : "Au rejeu",
+        "correct" : false
+      },
+	  {
+        "title" : "Au MITM",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pourquoi l'erreur HTTP error 404 peut poser un problème de sécurité ?",
+    "choices" : [
+      {
+        "title" : "Cela peut divulguer des informations",
+        "correct" : true
+      },
+      {
+        "title" : "Ce n'est pas joli",
+        "correct" : false
+      },
+	  {
+        "title" : "Le déni de service est possible",
+        "correct" : false
+      },
+	  {
+        "title" : "Cela permet de rebondir sur un autre serveur",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Une solution de DLP permet de lutter contre la ?",
+    "choices" : [
+      {
+        "title" : "Fuite d’informations",
+        "correct" : true
+      },
+      {
+        "title" : "Perte des disques durs",
+        "correct" : false
+      },
+	  {
+        "title" : "Corruption des réseaux",
+        "correct" : false
+      },
+	  {
+        "title" : "Prolifération des virus",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
   }
 ];
