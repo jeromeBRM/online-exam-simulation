@@ -9,7 +9,37 @@
  * @updated 16-06-2023
  *
  */
- 
+
+class QuestionsLoader {
+  constructor(questions, amount) {
+	this.questions = questions;
+	this.amount = amount;
+	this.loadIndex = 0;
+  }
+  
+  load() {
+	
+	// clear old DOM elements
+	document.querySelector('div#score').innerHTML = '';
+	document.querySelector('div#questions').innerHTML = '';
+	
+	// reset objects to default
+    const scoreCounter = new ScoreCounter(this.amount);
+    const questionsList = new QuestionsList(this.questions.slice(this.loadIndex * this.amount, this.loadIndex * this.amount + this.amount), scoreCounter);
+
+	// display new DOM elements
+    document.querySelector('div#score').appendChild(scoreCounter.mount());
+	document.querySelector('div#questions').appendChild(questionsList.mount());
+	
+	if (this.loadIndex * this.amount + this.amount > this.questions.length) {
+	  this.loadIndex = 0;
+	}
+	else {
+	  this.loadIndex++;
+	}
+  }
+}
+
 class ScoreCounter {
   constructor(max) {
     this.score = 0;
@@ -87,19 +117,39 @@ class QuestionElement {
 	const choicesContainer = document.createElement('fieldset');
 	questionContainer.appendChild(choicesContainer);
 
+	// register choices container as attribute of object so all its child inputs can accessed in 'freeze()'
+	this.choicesContainer = choicesContainer;
+
+	// randomize order of choices
+	this.shuffleChoices();
+
 	// create each choice in the DOM
 	this.question.choices.forEach(choice => {
-	  choicesContainer.appendChild(new ChoiceElement(this.question, choice, this.scoreCounter).mount());
+	  choicesContainer.appendChild(new ChoiceElement(this.question, this, choice, this.scoreCounter).mount());
 	});
 
 	return questionContainer;
   }
+  
+  freeze() {
+	this.choicesContainer.querySelectorAll('input').forEach((input) => {
+	  input.disabled = true;
+    });
+  }
+  
+  shuffleChoices() {
+    for (let i = this.question.choices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [this.question.choices[i], this.question.choices[j]] = [this.question.choices[j], this.question.choices[i]];
+    }
+  }
 }
 
 class ChoiceElement {
-  constructor(parentQuestion, choice, scoreCounter) {
+  constructor(parentQuestion, questionElement, choice, scoreCounter) {
 	this.parentQuestion = parentQuestion;
-    this.choice = choice;
+    this.questionElement = questionElement;
+	this.choice = choice;
 	this.scoreCounter = scoreCounter;
 	
 	this.uniqueId = this.parentQuestion.title + "/" + this.choice.title;
@@ -116,6 +166,7 @@ class ChoiceElement {
 	choiceInput.id = this.uniqueId;
 	choiceInput.value = this.choice.correct;
 	choiceInput.scoreCounter = this.scoreCounter;
+	choiceInput.questionElement = this.questionElement;
 	choiceInput.name = this.parentQuestion.title;
 	choiceContainer.appendChild(choiceInput);
 	
@@ -131,24 +182,32 @@ class ChoiceElement {
   }
   
   handleInput(e) {
+	e.currentTarget.questionElement.freeze();
+	
+	const feedbackColor = e.currentTarget.value == 'true' ? '#c0ffc8' : '#ffc0c0' ;
+	
     if (e.currentTarget.value == 'true') {
-	  console.log(e.currentTarget.scoreCounter.prototype);
 	  e.currentTarget.scoreCounter.addScore();
     }
     else {
    	  e.currentTarget.scoreCounter.removeScore();
     }
+	
+	e.currentTarget.parentNode.style.backgroundColor = feedbackColor;
   }
 }
 
-function load(questions) {
-
-  // main objects
-  const scoreCounter = new ScoreCounter(questions.length);
-  const questionsList = new QuestionsList(questions, scoreCounter).mount();
-
-  document.querySelector('div#score').appendChild(scoreCounter.mount());
-  document.querySelector('div#questions').appendChild(questionsList);
+function main(questions) {
+  const questionLoader = new QuestionsLoader(questions, 20);
+  
+  const loadButton = document.querySelector('button#loader');
+  loadButton.questionLoader = questionLoader;
+  
+  loadButton.addEventListener('click', (e) => {
+    e.currentTarget.questionLoader.load();
+  });
+  
+  questionLoader.load();
 }
 
-load(questions);
+main(questions);
