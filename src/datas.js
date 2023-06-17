@@ -2627,7 +2627,7 @@ const questions = [
         "correct" : false
       },
 	  {
-        "title" : "Installant des serveurs chiffrés",
+        "title" : "Installant des serveurs de réseaux",
         "correct" : false
       },
 	  {
@@ -2758,32 +2758,6 @@ const questions = [
       },
 	  {
         "title" : "Modification",
-        "correct" : false
-      },
-	  {
-        "title" : "Je ne sais pas",
-        "correct" : false
-      }
-    ]
-  },
-  
-  {
-    "title" : "L’attaque Man In The Middle (MITM), c’est le fait … des données ?",
-    "choices" : [
-      {
-        "title" : "D’intercepter",
-        "correct" : true
-      },
-      {
-        "title" : "De voler",
-        "correct" : false
-      },
-	  {
-        "title" : "De transférer",
-        "correct" : false
-      },
-	  {
-        "title" : "D’altérer",
         "correct" : false
       },
 	  {
@@ -3594,32 +3568,6 @@ const questions = [
       },
 	  {
         "title" : "Caractériser les vulnérabilités",
-        "correct" : false
-      }
-    ]
-  },
-  
-  {
-    "title" : "La confiance sur Internet est basée sur l'utilisations de ?",
-    "choices" : [
-      {
-        "title" : "Certificats",
-        "correct" : true
-      },
-      {
-        "title" : "Moyens d'authentification forte",
-        "correct" : false
-      },
-	  {
-        "title" : "VPN",
-        "correct" : false
-      },
-	  {
-        "title" : "Cloud computing",
-        "correct" : false
-      },
-	  {
-        "title" : "Je ne sais pas",
         "correct" : false
       }
     ]
