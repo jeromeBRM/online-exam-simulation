@@ -2349,5 +2349,1539 @@ const questions = [
         "correct" : false
       }
     ]
+  },
+  
+  {
+    "title" : "Briques de sécurité pour un poste de travail, quel est l'intrus ?",
+    "choices" : [
+      {
+        "title" : "RAM",
+        "correct" : true
+      },
+      {
+        "title" : "Accès physique",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Données",
+        "correct" : false
+      },
+	  {
+        "title" : "BIOS",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quelle est la différence fondamentale entre Sécurité et Sûreté ?",
+    "choices" : [
+      {
+        "title" : "La malveillance",
+        "correct" : true
+      },
+      {
+        "title" : "Le niveau opérationnel",
+        "correct" : false
+      },
+	  {
+        "title" : "Aucune",
+        "correct" : false
+      },
+	  {
+        "title" : "Ca dépend du contexte",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Une architecture WEB doit au minimum inclure les briques de sécurité suivante ?",
+    "choices" : [
+      {
+        "title" : "Antivirus/DMZ/IPS",
+        "correct" : true
+      },
+      {
+        "title" : "Antivirus/DMZ/VPN",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "DNS/DMZ/IPS",
+        "correct" : false
+      },
+	  {
+        "title" : "DNS/DMZ/VPN",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pour être authentifié il faut 2 éléments ?",
+    "choices" : [
+      {
+        "title" : "Identifiant/mot de passe",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Clé/mot de passe",
+        "correct" : false
+      },
+	  {
+        "title" : "Identifiant/nom",
+        "correct" : false
+      },
+	  {
+        "title" : "Clé/nom",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Active Directory (AD) est ?",
+    "choices" : [
+      {
+        "title" : "Annuaire",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Proxy",
+        "correct" : false
+      },
+	  {
+        "title" : "Pare-feu",
+        "correct" : false
+      },
+	  {
+        "title" : "Antivirus",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quelle est la différence entre les 2 types de chiffrement?",
+    "choices" : [
+      {
+        "title" : "L’utilisation",
+        "correct" : true
+      },
+      {
+        "title" : "La robustesse",
+        "correct" : false
+      },
+	  {
+        "title" : "La notoriété",
+        "correct" : false
+      },
+	  {
+        "title" : "Aucune",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L'analyse live-forensics est effectuée lorsqu'un système est ?",
+    "choices" : [
+      {
+        "title" : "En fonctionnement",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Arrêté",
+        "correct" : false
+      },
+	  {
+        "title" : "En train de redémarrer",
+        "correct" : false
+      },
+	  {
+        "title" : "En panne",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pourquoi le protocole HTTP n'est pas sécurisé ?",
+    "choices" : [
+      {
+        "title" : "Les données ne sont pas chiffrées",
+        "correct" : true
+      },
+      {
+        "title" : "Il perd des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Il est trop vieux",
+        "correct" : false
+      },
+	  {
+        "title" : "Il est sensible aux ondes radios",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Sur un serveur Web, les sites doivent être ?",
+    "choices" : [
+      {
+        "title" : "Sur une partition autre que système",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Sur n'importe quelle partition",
+        "correct" : false
+      },
+	  {
+        "title" : "Sur la partition sytème",
+        "correct" : false
+      },
+	  {
+        "title" : "Tous sur la même partition un",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "PSSI veut dire ?",
+    "choices" : [
+      {
+        "title" : "Politique de Sécurité des Systèmes d'Information",
+        "correct" : true
+      },
+      {
+        "title" : "Pratiques de Sécurité des Systèmes Industriels",
+        "correct" : false
+      },
+	  {
+        "title" : "Politique de Sécurité des Systèmes Industriels",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Pratiques de Sécurité des Systèmes d'Information",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Il est possible de se protéger tout ou partie contre une attaque DDOS en ?",
+    "choices" : [
+      {
+        "title" : "Installant des serveurs d'équilibrage de charges",
+        "correct" : true
+      },
+      {
+        "title" : "Installant des serveurs chiffrés",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Installant des serveurs chiffrés",
+        "correct" : false
+      },
+	  {
+        "title" : "Installant des serveurs de sauvegarde",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le S de HTTPS signifie Secure mais c'est un abus de langage car ?",
+    "choices" : [
+      {
+        "title" : "Cela ne concerne que le chiffrement",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Ca dépend du protocole",
+        "correct" : false
+      },
+	  {
+        "title" : "C'est un concept marketing",
+        "correct" : false
+      },
+	  {
+        "title" : "Ca dépend de la taille des clés",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Trouver l'intrus, un VPN est utilisé dans les cas suivants ?",
+    "choices" : [
+      {
+        "title" : "Pour relier 2 postes de travail",
+        "correct" : true
+      },
+      {
+        "title" : "Pour relier 2 sites d'une entreprise",
+        "correct" : false
+      },
+	  {
+        "title" : "Pour relier le réseau d'une entreprise et le réseau de l'un de ses partenaires",
+        "correct" : false
+      },
+	  {
+        "title" : "Pour relier 1 réseau d'entreprise et un poste de travail",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quels sont les 2 grands vecteurs d'attaque au niveau des architectures Web ?",
+    "choices" : [
+      {
+        "title" : "Navigateur et Applications",
+        "correct" : true
+      },
+      {
+        "title" : "Poste de travail et Applications",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Navigateur et Serveur",
+        "correct" : false
+      },
+	  {
+        "title" : "Poste de travail et Serveur",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "XSS, CSRF sont des types de ?",
+    "choices" : [
+      {
+        "title" : "Attaques",
+        "correct" : true
+      },
+      {
+        "title" : "Virus",
+        "correct" : false
+      },
+	  {
+        "title" : "VPN",
+        "correct" : false
+      },
+	  {
+        "title" : "Algorithme de chiffrement",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un SMSI est un Système de … de la Sécurité de l’Information ?",
+    "choices" : [
+      {
+        "title" : "Management",
+        "correct" : true
+      },
+      {
+        "title" : "Manipulation",
+        "correct" : false
+      },
+	  {
+        "title" : "Mise à jour",
+        "correct" : false
+      },
+	  {
+        "title" : "Modification",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L’attaque Man In The Middle (MITM), c’est le fait … des données ?",
+    "choices" : [
+      {
+        "title" : "D’intercepter",
+        "correct" : true
+      },
+      {
+        "title" : "De voler",
+        "correct" : false
+      },
+	  {
+        "title" : "De transférer",
+        "correct" : false
+      },
+	  {
+        "title" : "D’altérer",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quelle est l'une des limites d'un firewall (pare-feu) classique ?",
+    "choices" : [
+      {
+        "title" : "Il peut être un single point of failure",
+        "correct" : true
+      },
+      {
+        "title" : "Il peut être contourné très facilement",
+        "correct" : false
+      },
+	  {
+        "title" : "Il peut filtrer les connexions",
+        "correct" : false
+      },
+	  {
+        "title" : "Ce n'est jamais fiable",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Une panne du réseau est une menace sur ?",
+    "choices" : [
+      {
+        "title" : "La disponibilité",
+        "correct" : true
+      },
+      {
+        "title" : "L'intégrité",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "La preuve",
+        "correct" : false
+      },
+	  {
+        "title" : "La confidentialité",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'objectif de la haute disponibilté ?",
+    "choices" : [
+      {
+        "title" : "Garantir une disponibilté tendant vers 100%",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Garantir une disponibilté tendant vers 0%",
+        "correct" : false
+      },
+	  {
+        "title" : "Garantir une disponibilté d'au moins 50%",
+        "correct" : false
+      },
+	  {
+        "title" : "Garantir une disponibilté comprise entre 90 et 110%",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le « déni de service » est une menace contre la ?",
+    "choices" : [
+      {
+        "title" : "Disponibilité",
+        "correct" : true
+      },
+      {
+        "title" : "Perte de confiance",
+        "correct" : false
+      },
+	  {
+        "title" : "Dépression",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Confidentialité",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pour se protéger contre l'écoute passive sur un réseau sans-fil, il faut ?",
+    "choices" : [
+      {
+        "title" : "Chiffrer les communications",
+        "correct" : true
+      },
+      {
+        "title" : "Utiliser un pare-feu",
+        "correct" : false
+      },
+	  {
+        "title" : "Sauvegarder les communications",
+        "correct" : false
+      },
+	  {
+        "title" : "Utiliser un antivirus",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un audit doit déboucher sur ?",
+    "choices" : [
+      {
+        "title" : "Des recommandations",
+        "correct" : true
+      },
+      {
+        "title" : "Un plan d’actions",
+        "correct" : false
+      },
+	  {
+        "title" : "Des mesures de sécurité",
+        "correct" : false
+      },
+	  {
+        "title" : "Un plan de reprise",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Que signifie le « P » dans le sigle DICP ?",
+    "choices" : [
+      {
+        "title" : "Preuve",
+        "correct" : true
+      },
+      {
+        "title" : "Potentiel",
+        "correct" : false
+      },
+	  {
+        "title" : "Pratique",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Physique",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un Rogue Access Point est un point d'accès ?",
+    "choices" : [
+      {
+        "title" : "Pirate",
+        "correct" : true
+      },
+      {
+        "title" : "En panne",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Chiffré",
+        "correct" : false
+      },
+	  {
+        "title" : "Réseau",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "WPA2 est un protocole permettant de sécuriser ?",
+    "choices" : [
+      {
+        "title" : "Un réseau sans-fil",
+        "correct" : true
+      },
+      {
+        "title" : "Un poste de travail",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Un smartphone",
+        "correct" : false
+      },
+	  {
+        "title" : "Un réseau filaire",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La ligne de temps permet ?",
+    "choices" : [
+      {
+        "title" : "D'avoir l'enchainement des évènements",
+        "correct" : true
+      },
+      {
+        "title" : "D'avoir la liste des fichiers",
+        "correct" : false
+      },
+	  {
+        "title" : "De récupérer l'heure système",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "De géolocaliser les smartphones",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le principe du cloisonnement est de … différentes zones d’un réseau ?",
+    "choices" : [
+      {
+        "title" : "Partitionner",
+        "correct" : true
+      },
+      {
+        "title" : "Sécuriser",
+        "correct" : false
+      },
+	  {
+        "title" : "Différencier",
+        "correct" : false
+      },
+	  {
+        "title" : "Sauvegarder",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, un VLAN permet de ?",
+    "choices" : [
+      {
+        "title" : "Détecter les attaques",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Améliorer la gestion du réseau",
+        "correct" : false
+      },
+	  {
+        "title" : "Séparer les flux",
+        "correct" : false
+      },
+	  {
+        "title" : "Optimiser la bande passante",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Active Directory est ?",
+    "choices" : [
+      {
+        "title" : "L'annuaire de Microsoft",
+        "correct" : true
+      },
+      {
+        "title" : "L'antivirus de Microsoft",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Le protocole d'authentification de Microsoft",
+        "correct" : false
+      },
+	  {
+        "title" : "Le service de mise à jour de Microsoft",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La norme 27002 correspond à ?",
+    "choices" : [
+      {
+        "title" : "Guide de bonnes pratiques",
+        "correct" : true
+      },
+      {
+        "title" : "Analyse des risques",
+        "correct" : false
+      },
+	  {
+        "title" : "Exigences pour le SMSI",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Métrique et mesure",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, un Audit a pour objectif ?",
+    "choices" : [
+      {
+        "title" : "Implémenter une PSSI",
+        "correct" : true
+      },
+      {
+        "title" : "Avoir un avis extérieur",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Vérifier la PSSI",
+        "correct" : false
+      },
+	  {
+        "title" : "Identifier les vulnérabilités",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le filtrage des URLs permet de se prémunir contre ?",
+    "choices" : [
+      {
+        "title" : "Certains malwares",
+        "correct" : true
+      },
+      {
+        "title" : "Les attaques de type MITM",
+        "correct" : false
+      },
+	  {
+        "title" : "Les attaques par Déni de Service",
+        "correct" : false
+      },
+	  {
+        "title" : "La saturation des réseaux",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un VPN permet de ?",
+    "choices" : [
+      {
+        "title" : "Chiffrer",
+        "correct" : true
+      },
+      {
+        "title" : "Sauvegarder",
+        "correct" : false
+      },
+	  {
+        "title" : "Cloisonner",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Se protéger contre les virus",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le protocole ARP permet d'associer une ?",
+    "choices" : [
+      {
+        "title" : "Adresse IP et une adresse MAC",
+        "correct" : true
+      },
+      {
+        "title" : "Adresse IP privée et un nom de domaine",
+        "correct" : false
+      },
+	  {
+        "title" : "Adresse IP publique et une adresse IP privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Adresse IP publique et un nom de domaine",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pour éviter la perte des données, il faut avoir une politique de ?",
+    "choices" : [
+      {
+        "title" : "Sauvegarde",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Mise à jour",
+        "correct" : false
+      },
+	  {
+        "title" : "Chiffrement",
+        "correct" : false
+      },
+	  {
+        "title" : "Vulnérabilités",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L'analyse de risques permet d' ?",
+    "choices" : [
+      {
+        "title" : "Evaluer les pertes",
+        "correct" : true
+      },
+      {
+        "title" : "Evaluer les risques",
+        "correct" : false
+      },
+	  {
+        "title" : "Evaluer les bisounours",
+        "correct" : false
+      },
+	  {
+        "title" : "Evaluer les menaces",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un rootkit permet de ?",
+    "choices" : [
+      {
+        "title" : "De maintenir un accès frauduleux",
+        "correct" : true
+      },
+      {
+        "title" : "D'effacer des données",
+        "correct" : false
+      },
+	  {
+        "title" : "De voler des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Créer une porte dérobée",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La différence principale entre un firewall « classique » et un firewall applicatif est ?",
+    "choices" : [
+      {
+        "title" : "Les couches réseau impactées",
+        "correct" : true
+      },
+      {
+        "title" : "Les applications embarquées",
+        "correct" : false
+      },
+	  {
+        "title" : "Le coût",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Le type d’attaques arrêtées",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le DLP permet de protéger ?",
+    "choices" : [
+      {
+        "title" : "Les données",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Les applications",
+        "correct" : false
+      },
+	  {
+        "title" : "Les réseaux",
+        "correct" : false
+      },
+	  {
+        "title" : "Les serveurs",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L'application du principe du moindre privilège permet de ?",
+    "choices" : [
+      {
+        "title" : "Réduire la surface d'attaque",
+        "correct" : true
+      },
+      {
+        "title" : "Eviter les virus",
+        "correct" : false
+      },
+	  {
+        "title" : "Réduire les risques de DDOS",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Eviter les pertes d'informations",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le but du phishing est de faire croire qu'un message ?",
+    "choices" : [
+      {
+        "title" : "Provient d'un tiers de confiance",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Est frauduleux",
+        "correct" : false
+      },
+	  {
+        "title" : "Est sans virus",
+        "correct" : false
+      },
+	  {
+        "title" : "Provient d'un ami",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La différence entre l’identification et l’authentification correspond à la notion de ?",
+    "choices" : [
+      {
+        "title" : "Preuve",
+        "correct" : true
+      },
+      {
+        "title" : "Confidentialité",
+        "correct" : false
+      },
+	  {
+        "title" : "Traçabilité",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Intégrité",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Dans une défense en profondeur, les différentes couches doivent être ?",
+    "choices" : [
+      {
+        "title" : "Indépendantes",
+        "correct" : true
+      },
+      {
+        "title" : "Interdépendantes",
+        "correct" : false
+      },
+	  {
+        "title" : "Dépendantes",
+        "correct" : false
+      },
+	  {
+        "title" : "Etanches",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Pourquoi la sécurité à 100% n'existe pas ?",
+    "choices" : [
+      {
+        "title" : "Il n'est pas possible d'être exhaustif au niveau de la connaissance des menaces",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Il n'est pas possible d'acheter tous les équipements de sécurité",
+        "correct" : false
+      },
+	  {
+        "title" : "Les ingénieurs en sécurité seraient au chômage",
+        "correct" : false
+      },
+	  {
+        "title" : "Les protocoles de sécurité ne sont pas toujours fiables",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Que signifie SMSI ?",
+    "choices" : [
+      {
+        "title" : "Système de Management de la Sécurité de l’Information",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Système de Modélisation de la Sécurité de l’Information",
+        "correct" : false
+      },
+	  {
+        "title" : "Sécurité, Malware, Sûreté et Informatique",
+        "correct" : false
+      },
+	  {
+        "title" : "Système, Management et Sécurité Informatique",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, un firewall (pare-feu) d'infrastructure classique n'intègre pas les fonctionnalités suivantes ?",
+    "choices" : [
+      {
+        "title" : "Filtrage",
+        "correct" : true
+      },
+      {
+        "title" : "Protection contre le DDOS",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Protection contre les fuites d'information",
+        "correct" : false
+      },
+	  {
+        "title" : "Antivirus",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Quel est l'intrus, l'Audit de code permet de ?",
+    "choices" : [
+      {
+        "title" : "Créer des vulnérabilités",
+        "correct" : true
+      },
+      {
+        "title" : "Trouver des vulnérabilités",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Formuler des recommandations",
+        "correct" : false
+      },
+	  {
+        "title" : "Caractériser les vulnérabilités",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La confiance sur Internet est basée sur l'utilisations de ?",
+    "choices" : [
+      {
+        "title" : "Certificats",
+        "correct" : true
+      },
+      {
+        "title" : "Moyens d'authentification forte",
+        "correct" : false
+      },
+	  {
+        "title" : "VPN",
+        "correct" : false
+      },
+	  {
+        "title" : "Cloud computing",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le protocole DNS permet d'associer une ?",
+    "choices" : [
+      {
+        "title" : "Adresse IP et un nom de domaine",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Adresse MAC et un nom de domaine",
+        "correct" : false
+      },
+	  {
+        "title" : "Adresse IP publique et une adresse IP privée",
+        "correct" : false
+      },
+	  {
+        "title" : "Adresse IP et une adresse MAC",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La traçabilité permet ?",
+    "choices" : [
+      {
+        "title" : "D'imputer l'origine d'une action",
+        "correct" : true
+      },
+      {
+        "title" : "De sauvegarder les données",
+        "correct" : false
+      },
+	  {
+        "title" : "D'empêcher la modification des données",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "De sécuriser les données",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La différence entre le mode ad hoc et le mode infrastructure est l’utilisation ?",
+    "choices" : [
+      {
+        "title" : "De points d’accès",
+        "correct" : true
+      },
+      {
+        "title" : "De méthodes de chiffrement différentes",
+        "correct" : false
+      },
+	  {
+        "title" : "De clés USB",
+        "correct" : false
+      },
+	  {
+        "title" : "De logiciels différents",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "L'une des différences entre un concentrateur (hub) et un commutateur (switch) est ?",
+    "choices" : [
+      {
+        "title" : "La manière de diffuser le trafic",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "La couleur",
+        "correct" : false
+      },
+	  {
+        "title" : "La séparation des différents réseaux",
+        "correct" : false
+      },
+	  {
+        "title" : "Le taux de disponibilité",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Le principe de base des architectures sécurisées est ?",
+    "choices" : [
+      {
+        "title" : "Le cloisonnement",
+        "correct" : true
+      },
+      {
+        "title" : "La sauvegarde",
+        "correct" : false
+      },
+	  {
+        "title" : "L’authentification",
+        "correct" : false
+      },
+	  {
+        "title" : "Le chiffrement",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "EFS ?",
+    "choices" : [
+      {
+        "title" : "Chiffrement",
+        "correct" : true
+      },
+      {
+        "title" : "Biométrie",
+        "correct" : false
+      },
+	  {
+        "title" : "Sécurisation",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Authentification",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La signature électronique permet de garantir ?",
+    "choices" : [
+      {
+        "title" : "L’authentification et l’intégrité",
+        "correct" : true
+      },
+      {
+        "title" : "Aucune des 2",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "L’authentification",
+        "correct" : false
+      },
+	  {
+        "title" : "L’intégrité",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Les Audits de vulnérabilités permettent de découvrir ?",
+    "choices" : [
+      {
+        "title" : "Des failles",
+        "correct" : true
+      },
+      {
+        "title" : "Des compromissions",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Des attaques",
+        "correct" : false
+      },
+	  {
+        "title" : "Des méthodes d'analyse",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "Un proxy (serveur mandataire) est utilisé pour ?",
+    "choices" : [
+      {
+        "title" : "Gérer l'accès à internet",
+        "correct" : true
+      },
+      {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      },
+	  {
+        "title" : "Gérer la messagerie",
+        "correct" : false
+      },
+	  {
+        "title" : "Déployer les antivirus",
+        "correct" : false
+      },
+	  {
+        "title" : "Déployer les patchs",
+        "correct" : false
+      }
+    ]
+  },
+  
+  {
+    "title" : "La Sécurité des Systèmes d’Information c’est une gestion ?",
+    "choices" : [
+      {
+        "title" : "Des risques",
+        "correct" : true
+      },
+      {
+        "title" : "Des vulnérabilités",
+        "correct" : false
+      },
+	  {
+        "title" : "Des menaces",
+        "correct" : false
+      },
+	  {
+        "title" : "Des Potentialités",
+        "correct" : false
+      },
+	  {
+        "title" : "Je ne sais pas",
+        "correct" : false
+      }
+    ]
   }
 ];
